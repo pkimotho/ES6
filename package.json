@@ -1,0 +1,23 @@
+{
+    "name": "es6",
+    "version": "1.0.0",
+    "description": "ES6 Project == Compiled to ES5",
+    "main": "index.js",
+    "scripts": {
+        "build": "babel src -d dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pkimotho/ES6.git"
+    },
+    "author": "P. Kimotho",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pkimotho/ES6/issues"
+    },
+    "homepage": "https://github.com/pkimotho/ES6#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.4.4",
+        "@babel/core": "^7.4.4"
+    }
+}
